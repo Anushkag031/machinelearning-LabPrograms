@@ -14,4 +14,3 @@ cluster.fit_predict(X)
 plt.scatter(X[:, 0], X[:, 1], c=cluster.labels_, cmap='viridis')
 plt.show()
 
-s
