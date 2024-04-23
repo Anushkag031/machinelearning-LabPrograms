@@ -1,6 +1,4 @@
 from numpy.lib.function_base import average
-
-
 def evalclass(x_test, y_test, model):
   from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, f1_score,ConfusionMatrixDisplay
 
