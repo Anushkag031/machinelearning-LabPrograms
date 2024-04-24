@@ -7,7 +7,3 @@ kf = KFold(n_splits=3, shuffle=False, random_state=None)
 
 for train_index, test_index in kf.split(x):
     print("Train:", train_index, "Test:", test_index)
-
-
-
-
